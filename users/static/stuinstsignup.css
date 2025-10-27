@@ -11,7 +11,7 @@
             background-position: center;
             background-attachment: fixed;
             color: #333;
-            min-height: 100vh;
+            min-height:100vh;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -20,10 +20,10 @@
 
         .container {
             display: flex;
-            max-width: 1200px;
-            width: 100%;
+            max-width: 1000px;
+            width: 130%;
             background: rgba(255, 255, 255, 0.95);
-            border-radius: 15px;
+            border-radius: 10px;
             overflow: hidden;
             box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
         }
@@ -46,15 +46,15 @@
         }
 
         .welcome-section p {
-            font-size: 1.1rem;
-            line-height: 1.6;
+            font-size: 1rem;
+            line-height: 1;
             margin-bottom: 30px;
         }
 
         .features {
             display: flex;
             flex-wrap: wrap;
-            gap: 20px;
+            gap: 10px;
             justify-content: center;
         }
 
@@ -132,7 +132,7 @@
         }
 
         .input-group input, .input-group select {
-            width: 100%;
+            width: 90%;
             padding: 15px 15px 15px 45px;
             border: 1px solid #ddd;
             border-radius: 8px;
@@ -238,7 +238,7 @@
             font-weight: 600;
         }
 
-        @media (max-width: 900px) {
+        @media (max-width: 500px) {
             .container {
                 flex-direction: column;
             }
